@@ -115,7 +115,7 @@ public class Main {
             }
             item.setStock(item.getStock() - 1);
             client.getBorrowedItems().add(item);
-            System.out.println("✅ Item borrowed successfully!");
+            System.out.println(" Item borrowed successfully!");
         } catch (ClientNotFoundException | ItemNotFoundException e) {
             System.out.println( e.getMessage());
         }
